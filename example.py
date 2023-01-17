@@ -2,7 +2,6 @@
 
 from eleven_tts import tts, ApiClient
 import os
-from attrdict import AttrDict as ad
 
 api_key = os.environ.get("ELEVENLABS_API_TOKEN", None) or input(
     "On the ElevenLabs website, click Profile, copy your the API key and paste it here, " + 
