@@ -45,7 +45,7 @@ class VoicesApi(object):
         :param str name: (required)
         :param list[str] files: (required)
         :param str xi_api_key: Your API key. This is required by most endpoints to access our API programatically. You can view your xi-api-key using the 'Profile' tab on the website.
-        :return: ElevenAddVoiceResponseModel
+        :return: AddVoiceResponseModel
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -69,7 +69,7 @@ class VoicesApi(object):
         :param str name: (required)
         :param list[str] files: (required)
         :param str xi_api_key: Your API key. This is required by most endpoints to access our API programatically. You can view your xi-api-key using the 'Profile' tab on the website.
-        :return: ElevenAddVoiceResponseModel
+        :return: AddVoiceResponseModel
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -136,7 +136,7 @@ class VoicesApi(object):
             body=body_params,
             post_params=form_params,
             files=local_var_files,
-            response_type='ElevenAddVoiceResponseModel',  # noqa: E501
+            response_type='AddVoiceResponseModel',  # noqa: E501
             auth_settings=auth_settings,
             async_req=params.get('async_req'),
             _return_http_data_only=params.get('_return_http_data_only'),
@@ -253,7 +253,7 @@ class VoicesApi(object):
         >>> result = thread.get()
 
         :param async_req bool
-        :param ElevenSettings body: (required)
+        :param Settings body: (required)
         :param str voice_id: Voice ID to be used, you can use https://api.elevenlabs.io/v1/voices to list all the available voices. (required)
         :param str xi_api_key: Your API key. This is required by most endpoints to access our API programatically. You can view your xi-api-key using the 'Profile' tab on the website.
         :return: object
@@ -277,7 +277,7 @@ class VoicesApi(object):
         >>> result = thread.get()
 
         :param async_req bool
-        :param ElevenSettings body: (required)
+        :param Settings body: (required)
         :param str voice_id: Voice ID to be used, you can use https://api.elevenlabs.io/v1/voices to list all the available voices. (required)
         :param str xi_api_key: Your API key. This is required by most endpoints to access our API programatically. You can view your xi-api-key using the 'Profile' tab on the website.
         :return: object
@@ -484,7 +484,7 @@ class VoicesApi(object):
         >>> result = thread.get()
 
         :param async_req bool
-        :return: ElevenVoiceSettingsResponseModel
+        :return: VoiceSettingsResponseModel
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -505,7 +505,7 @@ class VoicesApi(object):
         >>> result = thread.get()
 
         :param async_req bool
-        :return: ElevenVoiceSettingsResponseModel
+        :return: VoiceSettingsResponseModel
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -553,7 +553,7 @@ class VoicesApi(object):
             body=body_params,
             post_params=form_params,
             files=local_var_files,
-            response_type='ElevenVoiceSettingsResponseModel',  # noqa: E501
+            response_type='VoiceSettingsResponseModel',  # noqa: E501
             auth_settings=auth_settings,
             async_req=params.get('async_req'),
             _return_http_data_only=params.get('_return_http_data_only'),
@@ -573,7 +573,7 @@ class VoicesApi(object):
         :param async_req bool
         :param str voice_id: Voice ID to be used, you can use https://api.elevenlabs.io/v1/voices to list all the available voices. (required)
         :param str xi_api_key: Your API key. This is required by most endpoints to access our API programatically. You can view your xi-api-key using the 'Profile' tab on the website.
-        :return: ElevenVoiceSettingsResponseModel
+        :return: VoiceSettingsResponseModel
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -596,7 +596,7 @@ class VoicesApi(object):
         :param async_req bool
         :param str voice_id: Voice ID to be used, you can use https://api.elevenlabs.io/v1/voices to list all the available voices. (required)
         :param str xi_api_key: Your API key. This is required by most endpoints to access our API programatically. You can view your xi-api-key using the 'Profile' tab on the website.
-        :return: ElevenVoiceSettingsResponseModel
+        :return: VoiceSettingsResponseModel
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -652,7 +652,7 @@ class VoicesApi(object):
             body=body_params,
             post_params=form_params,
             files=local_var_files,
-            response_type='ElevenVoiceSettingsResponseModel',  # noqa: E501
+            response_type='VoiceSettingsResponseModel',  # noqa: E501
             auth_settings=auth_settings,
             async_req=params.get('async_req'),
             _return_http_data_only=params.get('_return_http_data_only'),
@@ -673,7 +673,7 @@ class VoicesApi(object):
         :param str voice_id: Voice ID to be used, you can use https://api.elevenlabs.io/v1/voices to list all the available voices. (required)
         :param bool with_settings: If set will return settings information corresponding to the voice, requires authorization.
         :param str xi_api_key: Your API key. This is required by most endpoints to access our API programatically. You can view your xi-api-key using the 'Profile' tab on the website.
-        :return: ElevenVoiceResponseModel
+        :return: VoiceResponseModel
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -697,7 +697,7 @@ class VoicesApi(object):
         :param str voice_id: Voice ID to be used, you can use https://api.elevenlabs.io/v1/voices to list all the available voices. (required)
         :param bool with_settings: If set will return settings information corresponding to the voice, requires authorization.
         :param str xi_api_key: Your API key. This is required by most endpoints to access our API programatically. You can view your xi-api-key using the 'Profile' tab on the website.
-        :return: ElevenVoiceResponseModel
+        :return: VoiceResponseModel
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -755,7 +755,7 @@ class VoicesApi(object):
             body=body_params,
             post_params=form_params,
             files=local_var_files,
-            response_type='ElevenVoiceResponseModel',  # noqa: E501
+            response_type='VoiceResponseModel',  # noqa: E501
             auth_settings=auth_settings,
             async_req=params.get('async_req'),
             _return_http_data_only=params.get('_return_http_data_only'),
@@ -774,7 +774,7 @@ class VoicesApi(object):
 
         :param async_req bool
         :param str xi_api_key: Your API key. This is required by most endpoints to access our API programatically. You can view your xi-api-key using the 'Profile' tab on the website.
-        :return: ElevenGetVoicesResponseModel
+        :return: GetVoicesResponseModel
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -796,7 +796,7 @@ class VoicesApi(object):
 
         :param async_req bool
         :param str xi_api_key: Your API key. This is required by most endpoints to access our API programatically. You can view your xi-api-key using the 'Profile' tab on the website.
-        :return: ElevenGetVoicesResponseModel
+        :return: GetVoicesResponseModel
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -846,7 +846,7 @@ class VoicesApi(object):
             body=body_params,
             post_params=form_params,
             files=local_var_files,
-            response_type='ElevenGetVoicesResponseModel',  # noqa: E501
+            response_type='GetVoicesResponseModel',  # noqa: E501
             auth_settings=auth_settings,
             async_req=params.get('async_req'),
             _return_http_data_only=params.get('_return_http_data_only'),

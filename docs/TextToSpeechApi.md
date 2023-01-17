@@ -24,7 +24,7 @@ from pprint import pprint
 
 # create an instance of the API class
 api_instance = eleven_tts.TextToSpeechApi()
-body = eleven_tts.ElevenBodyTextToSpeechV1TextToSpeechVoiceIdPost() # ElevenBodyTextToSpeechV1TextToSpeechVoiceIdPost | 
+body = eleven_tts.BodyTextToSpeechV1TextToSpeechVoiceIdPost() # BodyTextToSpeechV1TextToSpeechVoiceIdPost | 
 voice_id = 'voice_id_example' # str | Voice ID to be used, you can use https://api.elevenlabs.io/v1/voices to list all the available voices.
 xi_api_key = 'xi_api_key_example' # str | Your API key. This is required by most endpoints to access our API programatically. You can view your xi-api-key using the 'Profile' tab on the website. (optional)
 
@@ -39,7 +39,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**ElevenBodyTextToSpeechV1TextToSpeechVoiceIdPost**](ElevenBodyTextToSpeechV1TextToSpeechVoiceIdPost.md)|  | 
+ **body** | [**BodyTextToSpeechV1TextToSpeechVoiceIdPost**](BodyTextToSpeechV1TextToSpeechVoiceIdPost.md)|  | 
  **voice_id** | **str**| Voice ID to be used, you can use https://api.elevenlabs.io/v1/voices to list all the available voices. | 
  **xi_api_key** | **str**| Your API key. This is required by most endpoints to access our API programatically. You can view your xi-api-key using the &#x27;Profile&#x27; tab on the website. | [optional] 
 
@@ -75,7 +75,7 @@ from pprint import pprint
 
 # create an instance of the API class
 api_instance = eleven_tts.TextToSpeechApi()
-body = eleven_tts.ElevenBodyTextToSpeechV1TextToSpeechVoiceIdStreamPost() # ElevenBodyTextToSpeechV1TextToSpeechVoiceIdStreamPost | 
+body = eleven_tts.BodyTextToSpeechV1TextToSpeechVoiceIdStreamPost() # BodyTextToSpeechV1TextToSpeechVoiceIdStreamPost | 
 voice_id = 'voice_id_example' # str | Voice ID to be used, you can use https://api.elevenlabs.io/v1/voices to list all the available voices.
 xi_api_key = 'xi_api_key_example' # str | Your API key. This is required by most endpoints to access our API programatically. You can view your xi-api-key using the 'Profile' tab on the website. (optional)
 
@@ -90,7 +90,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**ElevenBodyTextToSpeechV1TextToSpeechVoiceIdStreamPost**](ElevenBodyTextToSpeechV1TextToSpeechVoiceIdStreamPost.md)|  | 
+ **body** | [**BodyTextToSpeechV1TextToSpeechVoiceIdStreamPost**](BodyTextToSpeechV1TextToSpeechVoiceIdStreamPost.md)|  | 
  **voice_id** | **str**| Voice ID to be used, you can use https://api.elevenlabs.io/v1/voices to list all the available voices. | 
  **xi_api_key** | **str**| Your API key. This is required by most endpoints to access our API programatically. You can view your xi-api-key using the &#x27;Profile&#x27; tab on the website. | [optional] 
 

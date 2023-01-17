@@ -7,7 +7,7 @@ Method | HTTP request | Description
 [**get_user_info_v1_user_get**](UserApi.md#get_user_info_v1_user_get) | **GET** /v1/user | Get User Info
 
 # **get_user_info_v1_user_get**
-> ElevenUserResponseModel get_user_info_v1_user_get(xi_api_key=xi_api_key)
+> UserResponseModel get_user_info_v1_user_get(xi_api_key=xi_api_key)
 
 Get User Info
 
@@ -41,7 +41,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ElevenUserResponseModel**](ElevenUserResponseModel.md)
+[**UserResponseModel**](UserResponseModel.md)
 
 ### Authorization
 

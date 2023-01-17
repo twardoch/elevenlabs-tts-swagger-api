@@ -14,7 +14,7 @@ Method | HTTP request | Description
 [**get_voices_v1_voices_get**](VoicesApi.md#get_voices_v1_voices_get) | **GET** /v1/voices | Get Voices
 
 # **add_voice_v1_voices_add_post**
-> ElevenAddVoiceResponseModel add_voice_v1_voices_add_post(name, files, xi_api_key=xi_api_key)
+> AddVoiceResponseModel add_voice_v1_voices_add_post(name, files, xi_api_key=xi_api_key)
 
 Add Voice
 
@@ -52,7 +52,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ElevenAddVoiceResponseModel**](ElevenAddVoiceResponseModel.md)
+[**AddVoiceResponseModel**](AddVoiceResponseModel.md)
 
 ### Authorization
 
@@ -132,7 +132,7 @@ from pprint import pprint
 
 # create an instance of the API class
 api_instance = eleven_tts.VoicesApi()
-body = eleven_tts.ElevenSettings() # ElevenSettings | 
+body = eleven_tts.Settings() # Settings | 
 voice_id = 'voice_id_example' # str | Voice ID to be used, you can use https://api.elevenlabs.io/v1/voices to list all the available voices.
 xi_api_key = 'xi_api_key_example' # str | Your API key. This is required by most endpoints to access our API programatically. You can view your xi-api-key using the 'Profile' tab on the website. (optional)
 
@@ -148,7 +148,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**ElevenSettings**](ElevenSettings.md)|  | 
+ **body** | [**Settings**](Settings.md)|  | 
  **voice_id** | **str**| Voice ID to be used, you can use https://api.elevenlabs.io/v1/voices to list all the available voices. | 
  **xi_api_key** | **str**| Your API key. This is required by most endpoints to access our API programatically. You can view your xi-api-key using the &#x27;Profile&#x27; tab on the website. | [optional] 
 
@@ -222,7 +222,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **get_default_voice_settings_v1_voices_settings_default_get**
-> ElevenVoiceSettingsResponseModel get_default_voice_settings_v1_voices_settings_default_get()
+> VoiceSettingsResponseModel get_default_voice_settings_v1_voices_settings_default_get()
 
 Get Default Voice Settings
 
@@ -252,7 +252,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**ElevenVoiceSettingsResponseModel**](ElevenVoiceSettingsResponseModel.md)
+[**VoiceSettingsResponseModel**](VoiceSettingsResponseModel.md)
 
 ### Authorization
 
@@ -266,7 +266,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **get_voice_settings_v1_voices_voice_id_settings_get**
-> ElevenVoiceSettingsResponseModel get_voice_settings_v1_voices_voice_id_settings_get(voice_id, xi_api_key=xi_api_key)
+> VoiceSettingsResponseModel get_voice_settings_v1_voices_voice_id_settings_get(voice_id, xi_api_key=xi_api_key)
 
 Get Voice Settings
 
@@ -302,7 +302,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ElevenVoiceSettingsResponseModel**](ElevenVoiceSettingsResponseModel.md)
+[**VoiceSettingsResponseModel**](VoiceSettingsResponseModel.md)
 
 ### Authorization
 
@@ -316,7 +316,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **get_voice_v1_voices_voice_id_get**
-> ElevenVoiceResponseModel get_voice_v1_voices_voice_id_get(voice_id, with_settings=with_settings, xi_api_key=xi_api_key)
+> VoiceResponseModel get_voice_v1_voices_voice_id_get(voice_id, with_settings=with_settings, xi_api_key=xi_api_key)
 
 Get Voice
 
@@ -354,7 +354,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ElevenVoiceResponseModel**](ElevenVoiceResponseModel.md)
+[**VoiceResponseModel**](VoiceResponseModel.md)
 
 ### Authorization
 
@@ -368,7 +368,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **get_voices_v1_voices_get**
-> ElevenGetVoicesResponseModel get_voices_v1_voices_get(xi_api_key=xi_api_key)
+> GetVoicesResponseModel get_voices_v1_voices_get(xi_api_key=xi_api_key)
 
 Get Voices
 
@@ -402,7 +402,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ElevenGetVoicesResponseModel**](ElevenGetVoicesResponseModel.md)
+[**GetVoicesResponseModel**](GetVoicesResponseModel.md)
 
 ### Authorization
 

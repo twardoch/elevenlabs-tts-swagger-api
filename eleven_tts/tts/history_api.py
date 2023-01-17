@@ -141,7 +141,7 @@ class HistoryApi(object):
         >>> result = thread.get()
 
         :param async_req bool
-        :param ElevenBodyDeleteHistoryItemsV1HistoryDeletePost body: (required)
+        :param BodyDeleteHistoryItemsV1HistoryDeletePost body: (required)
         :param str xi_api_key: Your API key. This is required by most endpoints to access our API programatically. You can view your xi-api-key using the 'Profile' tab on the website.
         :return: object
                  If the method is called asynchronously,
@@ -164,7 +164,7 @@ class HistoryApi(object):
         >>> result = thread.get()
 
         :param async_req bool
-        :param ElevenBodyDeleteHistoryItemsV1HistoryDeletePost body: (required)
+        :param BodyDeleteHistoryItemsV1HistoryDeletePost body: (required)
         :param str xi_api_key: Your API key. This is required by most endpoints to access our API programatically. You can view your xi-api-key using the 'Profile' tab on the website.
         :return: object
                  If the method is called asynchronously,
@@ -244,7 +244,7 @@ class HistoryApi(object):
         >>> result = thread.get()
 
         :param async_req bool
-        :param ElevenBodyDownloadHistoryItemsV1HistoryDownloadPost body: (required)
+        :param BodyDownloadHistoryItemsV1HistoryDownloadPost body: (required)
         :param str xi_api_key: Your API key. This is required by most endpoints to access our API programatically. You can view your xi-api-key using the 'Profile' tab on the website.
         :return: None
                  If the method is called asynchronously,
@@ -267,7 +267,7 @@ class HistoryApi(object):
         >>> result = thread.get()
 
         :param async_req bool
-        :param ElevenBodyDownloadHistoryItemsV1HistoryDownloadPost body: (required)
+        :param BodyDownloadHistoryItemsV1HistoryDownloadPost body: (required)
         :param str xi_api_key: Your API key. This is required by most endpoints to access our API programatically. You can view your xi-api-key using the 'Profile' tab on the website.
         :return: None
                  If the method is called asynchronously,
@@ -447,7 +447,7 @@ class HistoryApi(object):
 
         :param async_req bool
         :param str xi_api_key: Your API key. This is required by most endpoints to access our API programatically. You can view your xi-api-key using the 'Profile' tab on the website.
-        :return: ElevenGetHistoryResponseModel
+        :return: GetHistoryResponseModel
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -469,7 +469,7 @@ class HistoryApi(object):
 
         :param async_req bool
         :param str xi_api_key: Your API key. This is required by most endpoints to access our API programatically. You can view your xi-api-key using the 'Profile' tab on the website.
-        :return: ElevenGetHistoryResponseModel
+        :return: GetHistoryResponseModel
                  If the method is called asynchronously,
                  returns the request thread.
         """
@@ -519,7 +519,7 @@ class HistoryApi(object):
             body=body_params,
             post_params=form_params,
             files=local_var_files,
-            response_type='ElevenGetHistoryResponseModel',  # noqa: E501
+            response_type='GetHistoryResponseModel',  # noqa: E501
             auth_settings=auth_settings,
             async_req=params.get('async_req'),
             _return_http_data_only=params.get('_return_http_data_only'),

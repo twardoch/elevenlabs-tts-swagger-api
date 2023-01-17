@@ -77,7 +77,7 @@ from pprint import pprint
 
 # create an instance of the API class
 api_instance = eleven_tts.HistoryApi()
-body = eleven_tts.ElevenBodyDeleteHistoryItemsV1HistoryDeletePost() # ElevenBodyDeleteHistoryItemsV1HistoryDeletePost | 
+body = eleven_tts.BodyDeleteHistoryItemsV1HistoryDeletePost() # BodyDeleteHistoryItemsV1HistoryDeletePost | 
 xi_api_key = 'xi_api_key_example' # str | Your API key. This is required by most endpoints to access our API programatically. You can view your xi-api-key using the 'Profile' tab on the website. (optional)
 
 try:
@@ -92,7 +92,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**ElevenBodyDeleteHistoryItemsV1HistoryDeletePost**](ElevenBodyDeleteHistoryItemsV1HistoryDeletePost.md)|  | 
+ **body** | [**BodyDeleteHistoryItemsV1HistoryDeletePost**](BodyDeleteHistoryItemsV1HistoryDeletePost.md)|  | 
  **xi_api_key** | **str**| Your API key. This is required by most endpoints to access our API programatically. You can view your xi-api-key using the &#x27;Profile&#x27; tab on the website. | [optional] 
 
 ### Return type
@@ -127,7 +127,7 @@ from pprint import pprint
 
 # create an instance of the API class
 api_instance = eleven_tts.HistoryApi()
-body = eleven_tts.ElevenBodyDownloadHistoryItemsV1HistoryDownloadPost() # ElevenBodyDownloadHistoryItemsV1HistoryDownloadPost | 
+body = eleven_tts.BodyDownloadHistoryItemsV1HistoryDownloadPost() # BodyDownloadHistoryItemsV1HistoryDownloadPost | 
 xi_api_key = 'xi_api_key_example' # str | Your API key. This is required by most endpoints to access our API programatically. You can view your xi-api-key using the 'Profile' tab on the website. (optional)
 
 try:
@@ -141,7 +141,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**ElevenBodyDownloadHistoryItemsV1HistoryDownloadPost**](ElevenBodyDownloadHistoryItemsV1HistoryDownloadPost.md)|  | 
+ **body** | [**BodyDownloadHistoryItemsV1HistoryDownloadPost**](BodyDownloadHistoryItemsV1HistoryDownloadPost.md)|  | 
  **xi_api_key** | **str**| Your API key. This is required by most endpoints to access our API programatically. You can view your xi-api-key using the &#x27;Profile&#x27; tab on the website. | [optional] 
 
 ### Return type
@@ -209,7 +209,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **get_generated_items_v1_history_get**
-> ElevenGetHistoryResponseModel get_generated_items_v1_history_get(xi_api_key=xi_api_key)
+> GetHistoryResponseModel get_generated_items_v1_history_get(xi_api_key=xi_api_key)
 
 Get Generated Items
 
@@ -243,7 +243,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ElevenGetHistoryResponseModel**](ElevenGetHistoryResponseModel.md)
+[**GetHistoryResponseModel**](GetHistoryResponseModel.md)
 
 ### Authorization
 

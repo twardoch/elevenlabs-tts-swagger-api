@@ -42,7 +42,7 @@ class TextToSpeechApi(object):
         >>> result = thread.get()
 
         :param async_req bool
-        :param ElevenBodyTextToSpeechV1TextToSpeechVoiceIdPost body: (required)
+        :param BodyTextToSpeechV1TextToSpeechVoiceIdPost body: (required)
         :param str voice_id: Voice ID to be used, you can use https://api.elevenlabs.io/v1/voices to list all the available voices. (required)
         :param str xi_api_key: Your API key. This is required by most endpoints to access our API programatically. You can view your xi-api-key using the 'Profile' tab on the website.
         :return: None
@@ -66,7 +66,7 @@ class TextToSpeechApi(object):
         >>> result = thread.get()
 
         :param async_req bool
-        :param ElevenBodyTextToSpeechV1TextToSpeechVoiceIdPost body: (required)
+        :param BodyTextToSpeechV1TextToSpeechVoiceIdPost body: (required)
         :param str voice_id: Voice ID to be used, you can use https://api.elevenlabs.io/v1/voices to list all the available voices. (required)
         :param str xi_api_key: Your API key. This is required by most endpoints to access our API programatically. You can view your xi-api-key using the 'Profile' tab on the website.
         :return: None
@@ -153,7 +153,7 @@ class TextToSpeechApi(object):
         >>> result = thread.get()
 
         :param async_req bool
-        :param ElevenBodyTextToSpeechV1TextToSpeechVoiceIdStreamPost body: (required)
+        :param BodyTextToSpeechV1TextToSpeechVoiceIdStreamPost body: (required)
         :param str voice_id: Voice ID to be used, you can use https://api.elevenlabs.io/v1/voices to list all the available voices. (required)
         :param str xi_api_key: Your API key. This is required by most endpoints to access our API programatically. You can view your xi-api-key using the 'Profile' tab on the website.
         :return: None
@@ -177,7 +177,7 @@ class TextToSpeechApi(object):
         >>> result = thread.get()
 
         :param async_req bool
-        :param ElevenBodyTextToSpeechV1TextToSpeechVoiceIdStreamPost body: (required)
+        :param BodyTextToSpeechV1TextToSpeechVoiceIdStreamPost body: (required)
         :param str voice_id: Voice ID to be used, you can use https://api.elevenlabs.io/v1/voices to list all the available voices. (required)
         :param str xi_api_key: Your API key. This is required by most endpoints to access our API programatically. You can view your xi-api-key using the 'Profile' tab on the website.
         :return: None

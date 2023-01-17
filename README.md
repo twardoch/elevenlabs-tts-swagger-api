@@ -65,7 +65,7 @@ except ApiException as e:
 
 # create an instance of the API class
 api_instance = eleven_tts.HistoryApi(eleven_tts.ApiClient(configuration))
-body = eleven_tts.ElevenBodyDeleteHistoryItemsV1HistoryDeletePost() # ElevenBodyDeleteHistoryItemsV1HistoryDeletePost | 
+body = eleven_tts.BodyDeleteHistoryItemsV1HistoryDeletePost() # BodyDeleteHistoryItemsV1HistoryDeletePost | 
 xi_api_key = 'xi_api_key_example' # str | Your API key. This is required by most endpoints to access our API programatically. You can view your xi-api-key using the 'Profile' tab on the website. (optional)
 
 try:
@@ -77,7 +77,7 @@ except ApiException as e:
 
 # create an instance of the API class
 api_instance = eleven_tts.HistoryApi(eleven_tts.ApiClient(configuration))
-body = eleven_tts.ElevenBodyDownloadHistoryItemsV1HistoryDownloadPost() # ElevenBodyDownloadHistoryItemsV1HistoryDownloadPost | 
+body = eleven_tts.BodyDownloadHistoryItemsV1HistoryDownloadPost() # BodyDownloadHistoryItemsV1HistoryDownloadPost | 
 xi_api_key = 'xi_api_key_example' # str | Your API key. This is required by most endpoints to access our API programatically. You can view your xi-api-key using the 'Profile' tab on the website. (optional)
 
 try:
@@ -136,25 +136,25 @@ Class | Method | HTTP request | Description
 
 ## Documentation For Models
 
- - [ElevenAddVoiceResponseModel](docs/ElevenAddVoiceResponseModel.md)
- - [ElevenAnyOfValidationErrorElevenLocItems](docs/ElevenAnyOfValidationErrorElevenLocItems.md)
- - [ElevenBodyAddVoiceV1VoicesAddPost](docs/ElevenBodyAddVoiceV1VoicesAddPost.md)
- - [ElevenBodyDeleteHistoryItemsV1HistoryDeletePost](docs/ElevenBodyDeleteHistoryItemsV1HistoryDeletePost.md)
- - [ElevenBodyDownloadHistoryItemsV1HistoryDownloadPost](docs/ElevenBodyDownloadHistoryItemsV1HistoryDownloadPost.md)
- - [ElevenBodyEditVoiceV1VoicesVoiceIdEditPost](docs/ElevenBodyEditVoiceV1VoicesVoiceIdEditPost.md)
- - [ElevenBodyTextToSpeechV1TextToSpeechVoiceIdPost](docs/ElevenBodyTextToSpeechV1TextToSpeechVoiceIdPost.md)
- - [ElevenBodyTextToSpeechV1TextToSpeechVoiceIdStreamPost](docs/ElevenBodyTextToSpeechV1TextToSpeechVoiceIdStreamPost.md)
- - [ElevenGetHistoryResponseModel](docs/ElevenGetHistoryResponseModel.md)
- - [ElevenGetVoicesResponseModel](docs/ElevenGetVoicesResponseModel.md)
- - [ElevenHTTPValidationError](docs/ElevenHTTPValidationError.md)
- - [ElevenHistoryItemResponseModel](docs/ElevenHistoryItemResponseModel.md)
- - [ElevenSampleResponseModel](docs/ElevenSampleResponseModel.md)
- - [ElevenSettings](docs/ElevenSettings.md)
- - [ElevenSubscriptionResponseModel](docs/ElevenSubscriptionResponseModel.md)
- - [ElevenUserResponseModel](docs/ElevenUserResponseModel.md)
- - [ElevenValidationError](docs/ElevenValidationError.md)
- - [ElevenVoiceResponseModel](docs/ElevenVoiceResponseModel.md)
- - [ElevenVoiceSettingsResponseModel](docs/ElevenVoiceSettingsResponseModel.md)
+ - [AddVoiceResponseModel](docs/AddVoiceResponseModel.md)
+ - [AnyOfValidationErrorLocItems](docs/AnyOfValidationErrorLocItems.md)
+ - [BodyAddVoiceV1VoicesAddPost](docs/BodyAddVoiceV1VoicesAddPost.md)
+ - [BodyDeleteHistoryItemsV1HistoryDeletePost](docs/BodyDeleteHistoryItemsV1HistoryDeletePost.md)
+ - [BodyDownloadHistoryItemsV1HistoryDownloadPost](docs/BodyDownloadHistoryItemsV1HistoryDownloadPost.md)
+ - [BodyEditVoiceV1VoicesVoiceIdEditPost](docs/BodyEditVoiceV1VoicesVoiceIdEditPost.md)
+ - [BodyTextToSpeechV1TextToSpeechVoiceIdPost](docs/BodyTextToSpeechV1TextToSpeechVoiceIdPost.md)
+ - [BodyTextToSpeechV1TextToSpeechVoiceIdStreamPost](docs/BodyTextToSpeechV1TextToSpeechVoiceIdStreamPost.md)
+ - [GetHistoryResponseModel](docs/GetHistoryResponseModel.md)
+ - [GetVoicesResponseModel](docs/GetVoicesResponseModel.md)
+ - [HTTPValidationError](docs/HTTPValidationError.md)
+ - [HistoryItemResponseModel](docs/HistoryItemResponseModel.md)
+ - [SampleResponseModel](docs/SampleResponseModel.md)
+ - [Settings](docs/Settings.md)
+ - [SubscriptionResponseModel](docs/SubscriptionResponseModel.md)
+ - [UserResponseModel](docs/UserResponseModel.md)
+ - [ValidationError](docs/ValidationError.md)
+ - [VoiceResponseModel](docs/VoiceResponseModel.md)
+ - [VoiceSettingsResponseModel](docs/VoiceSettingsResponseModel.md)
 
 ## Documentation For Authorization
 
